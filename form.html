@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Document</title>
+</head>
+<body>
+  <form method="post" action="https://script.google.com/macros/s/AKfycbxx-eLDiSiXt02RyWG1zRw4Wssj05pWmwzKLlcF4ByxxpkTY597YfnZLR7iZTIiZsQd/exec" name="Tasks">
+    <input type="hidden" name="on" id="onInput">
+    <input type="hidden" name="tw" id="twInput">
+    <input type="hidden" name="th" id="thInput">
+    <input type="hidden" name="fo" id="foInput">
+    <input type="hidden" name="timeDisplay" id="timeDisplayInput">
+    <input type="hidden" name="one" id="oneInput">
+    <input type="hidden" name="two" id="twoInput">
+    <input type="hidden" name="thr" id="thrInput">
+    <input type="hidden" name="fou" id="fouInput">
+  </form>
+
+    <div class="box">
+      <div class="boxy1"><div class="title">Tasks Simulator</div></div>
+      <div class="full">
+        <div class="left">
+          <div class="dis1">
+            <div class="on" id="on"></div>
+            <div class="tw" id="tw"></div>
+            <div class="th" id="th"></div>
+            <div class="fo" id="fo"></div>
+          </div>
+          <div class="tym">
+            <div class="timeDisplay" id="timeDisplay">00:00</div>
+          </div>
+          <div class="dis2">
+            <div class="one" id="one"></div>
+            <div class="two" id="two"></div>
+            <div class="thr" id="thr"></div>
+            <div class="fou" id="fou"></div>
+          </div>
+        </div>
+        <div class="right">
+          <div class="sec1">
+            <div class="nm">
+              <div class="st-inp vc">
+                <input type="text" alt="text" placeholder="Task Name" class="inp vc r" name="r">
+                <button type="submit" class="sub po">
+                  <i class="subo"><svg class="po" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path class="po" d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg></i>
+                </button>
+              </div>
+              <div class="st-inp vc">
+                <input type="text" alt="text" class="dis inp vc ra" name="ra" placeholder="Description">
+              </div>
+              <button type="submit" id="md">Start</button>
+              <button type="reset" id="resetBtn">Reset</button>
+              <button type="submit" id="stopBtn">Stop</button>
+            </div>
+            <div class="des">
+              <div class="st-inp mc">
+                <input type="text" class="com inp mc raw" name="raw" alt="text" placeholder="Comment">
+              </div>
+              <button type="submit" class="mc" id="bc">Submit</button>
+              <button type="reset" id="ResetBtn" class="mc">Reset</button>
+            </div>
+          </div>
+          <div class="sec2"></div>
+        </div>
+      </div>
+      <div class="btn"></div>
+    </div>
+  <script src="style.js"></script>
+</body>
+</html>
